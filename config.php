@@ -4,7 +4,7 @@ require 'vendor/autoload.php';
 use Dotenv\Dotenv;
 
 $dotenv = Dotenv::createImmutable(__DIR__);
-$dotenv->load();
+$dotenv->safeLoad();
 
 try {
     $dbHost = $_ENV['DB_HOST'];
