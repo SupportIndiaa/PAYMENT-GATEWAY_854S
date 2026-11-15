@@ -1,0 +1,8 @@
+# Ativar o mecanismo de reescrita
+RewriteEngine On
+
+# Garantir que o arquivo solicitado existe com a extensão .php
+RewriteCond %{REQUEST_FILENAME}.php -f
+
+# Reescrever a URL para incluir a extensão .php
+RewriteRule ^([^\.]+)$ $1.php [L]

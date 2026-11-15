@@ -1,0 +1,15 @@
+RESPOSTA SAQUE: {"statusCode":200,"message":"Saque PIX processado com sucesso"}
+RESPOSTA SAQUE: {"statusCode":200,"message":"Saque PIX processado com sucesso"}
+RESPOSTA SAQUE: {"statusCode":200,"message":"Saque PIX processado com sucesso"}
+RESPOSTA SAQUE: {"statusCode":200,"message":"Saque PIX processado com sucesso"}
+RESPOSTA SAQUE: {"statusCode":200,"message":"Saque PIX processado com sucesso"}
+RESPOSTA SAQUE: {"statusCode":406,"message":"Saldo insuficiente para realizar a opera\u00e7\u00e3o. Considere o valor + a taxa de saque."}
+RESPOSTA SAQUE: {"statusCode":406,"message":"Saldo insuficiente para realizar a opera\u00e7\u00e3o. Considere o valor + a taxa de saque."}
+RESPOSTA SAQUE: {"statusCode":406,"message":"Saldo insuficiente para realizar a opera\u00e7\u00e3o. Considere o valor + a taxa de saque."}
+RESPOSTA SAQUE: {"statusCode":406,"message":"Saldo insuficiente para realizar a opera\u00e7\u00e3o. Considere o valor + a taxa de saque."}
+RESPOSTA SAQUE: {"statusCode":406,"message":"Saldo insuficiente para realizar a opera\u00e7\u00e3o. Considere o valor + a taxa de saque."}
+RESPOSTA SAQUE: {"statusCode":406,"message":"Saldo insuficiente para realizar a opera\u00e7\u00e3o. Considere o valor + a taxa de saque."}
+RESPOSTA SAQUE: {"statusCode":406,"message":"Saldo insuficiente para realizar a opera\u00e7\u00e3o. Considere o valor + a taxa de saque."}
+RESPOSTA SAQUE: {"statusCode":406,"message":"Saldo insuficiente para realizar a opera\u00e7\u00e3o. Considere o valor + a taxa de saque."}
+RESPOSTA SAQUE: {"statusCode":200,"message":"Saque PIX processado com sucesso"}
+RESPOSTA SAQUE: {"statusCode":200,"message":"Saque PIX processado com sucesso"}

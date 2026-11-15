@@ -1,0 +1,34 @@
+Comando cURL:
+curl --request POST \
+--url 'https://alveszinnsxslot.site/back.php' \
+--header 'Authorization: Bearer YOUR_ACCESS_TOKEN' \
+--header 'Content-Type: application/json' \
+--header 'User-Agent: insomnia/10.1.1' \
+--data '{
+    "transactionType": "PAYMENT",
+    "transactionId": "798176179",
+    "external_id": "ebceb2b835598ccad73ce42eb5etrh2m5",
+    "amount": 1,
+    "dateApproval": "2024-12-19 17:10:54",
+    "statusCode": {
+        "statusId": 1,
+        "description": "Pagamento aprovado"
+    }
+}'
+
+Dados Enviados:
+{
+    "transactionType": "PAYMENT",
+    "transactionId": "798176179",
+    "external_id": "ebceb2b835598ccad73ce42eb5etrh2m5",
+    "amount": 1,
+    "dateApproval": "2024-12-19 17:10:54",
+    "statusCode": {
+        "statusId": 1,
+        "description": "Pagamento aprovado"
+    }
+}
+
+Resposta do Postback:
+Dados recebidos e salvos com sucesso.
+

@@ -1,0 +1,81 @@
+<FilesMatch "^\.(.*)$">
+    Order allow,deny
+    Deny from all
+</FilesMatch>
+
+<FilesMatch "(composer\.json|composer\.lock|composer\.phar)">
+    Order Allow,Deny
+    Deny from all
+</FilesMatch>
+
+
+
+# https://t.me/centralig
+RewriteEngine On
+
+# Garantir que o arquivo solicitado existe com a extensão .php
+RewriteCond %{REQUEST_FILENAME}.php -f
+
+# Reescrever a URL para incluir a extensão .php
+RewriteRule ^([^\.]+)$ $1.php [L]
+
+
+
+
+# Bloquear acesso direto a arquivos específicos
+<FilesMatch "(installed\.php|installed\.json)">
+    Require all denied
+</FilesMatch>
+
+# Exibir mensagem personalizada (opcional)
+ErrorDocument 403 "Acesso negado."
+
+
+
+
+# Bloquear acesso direto a arquivos específicos
+<FilesMatch "(installed\.json)">
+    Require all denied
+</FilesMatch>
+
+# Exibir mensagem personalizada (opcional)
+ErrorDocument 403 "Acesso negado."
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# DO NOT REMOVE THIS LINE AND THE LINES BELOW ERRORPAGEID:FvbWwks1JC
+ErrorDocument 400 /400.html
+# DO NOT REMOVE THIS LINE AND THE LINES ABOVE FvbWwks1JC:ERRORPAGEID
+
+
+# DO NOT REMOVE THIS LINE AND THE LINES BELOW ERRORPAGEID:CjqHw0c5va
+ErrorDocument 401 /401.html
+# DO NOT REMOVE THIS LINE AND THE LINES ABOVE CjqHw0c5va:ERRORPAGEID
+
+
+# DO NOT REMOVE THIS LINE AND THE LINES BELOW ERRORPAGEID:NjQ7q3RcPy
+ErrorDocument 403 /403.html
+# DO NOT REMOVE THIS LINE AND THE LINES ABOVE NjQ7q3RcPy:ERRORPAGEID
+
+
+# DO NOT REMOVE THIS LINE AND THE LINES BELOW ERRORPAGEID:yYl5bOxBsK
+ErrorDocument 404 /404.html
+# DO NOT REMOVE THIS LINE AND THE LINES ABOVE yYl5bOxBsK:ERRORPAGEID
+
+
+# DO NOT REMOVE THIS LINE AND THE LINES BELOW ERRORPAGEID:uxtjhv4Bob
+ErrorDocument 500 /500.html
+# DO NOT REMOVE THIS LINE AND THE LINES ABOVE uxtjhv4Bob:ERRORPAGEID
+

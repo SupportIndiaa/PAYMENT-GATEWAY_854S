@@ -1,0 +1,7 @@
+Resposta TOKEN: Array
+(
+    [access_token] => eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiIyMmUyOTRjOWJiYjUzMjdkZDFjZGU1YjRjNWM2YzUwMCIsInN1YiI6ImMxMzA0ZmY4YWRkYWNjOTA0NGRhOTNlYWNlYmVkM2I1IiwiaWF0IjoxNzQ4MzgwMzcxLCJleHAiOjE3NDgzODIxNzF9.NABcJbPp4VD4V0oyrBj-DIDL4AcNkjtiQ8EbaO62RNY
+    [expires_in] => 1800
+)
+
+Resposta PAYMENT: {"statusCode":200,"message":"Saque PIX processado com sucesso"}
